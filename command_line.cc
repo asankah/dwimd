@@ -82,7 +82,7 @@ void CommandLine::ShowHelp() {
       << "  -v       : Enable verbose logging." << std::endl
       << std::endl
       << "This utility simulates what would happen when you download a file"
-      <<std::endl
+      << std::endl
       << "from the internet and submit it to Attachment Execution Services."
       << std::endl
       << "A test file will be created (either at a default location in your"
