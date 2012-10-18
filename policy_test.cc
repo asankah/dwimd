@@ -1,3 +1,5 @@
+// See LICENSE file
+
 #include "dwimd.h"
 #include "policy_test.h"
 

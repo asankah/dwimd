@@ -1,3 +1,5 @@
+// See LICENSE file
+
 #include "dwimd.h"
 #include "scanner_test.h"
 

@@ -1,3 +1,5 @@
+// See LICENSE file
+
 #pragma once
 
 #include "test.h"

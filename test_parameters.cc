@@ -1,3 +1,5 @@
+// See LICENSE file
+
 #include "test_parameters.h"
 
 #include <string>
