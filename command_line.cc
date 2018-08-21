@@ -8,12 +8,7 @@
 
 CommandLine::CommandLine(int argc, wchar_t** argv, TestParameters* parameters)
     : argc_(argc),
-      current_(0),
-      value_ptr_(NULL),
-      short_argument_(NULL),
-      long_argument_(NULL),
       argv_(argv),
-      need_help_(false),
       parameters_(parameters) {}
 
 bool CommandLine::ParseArgument() {

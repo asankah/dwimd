@@ -16,13 +16,13 @@ class CommandLine {
                   const wchar_t* long_argument);
   void ShowHelp();
 
-  int argc_;
-  int current_;
-  const wchar_t* value_ptr_;
-  const wchar_t* short_argument_;
-  const wchar_t* long_argument_;
-  wchar_t** argv_;
-  bool need_help_;
-  TestParameters* parameters_;
+  int argc_ = 0;
+  int current_ = 0;
+  const wchar_t* value_ptr_ = nullptr;
+  const wchar_t* short_argument_ = nullptr;
+  const wchar_t* long_argument_ = nullptr;
+  wchar_t** argv_ = nullptr;
+  bool need_help_ = false;
+  TestParameters* parameters_ = nullptr;
 };
     
